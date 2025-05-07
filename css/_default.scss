@@ -115,7 +115,7 @@ body{
 h1{
   font-size: 40px;
   line-height: 110%;
-  color: #fff;
+  color: $yl;
   font-family: $ps;
   text-transform: uppercase;
   font-weight: 700;
@@ -406,10 +406,19 @@ header{
     }
   }
 }
+.h_contatcs{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 .h_tel{
   flex-shrink: 0;
   font-size: 16px;
   font-weight: 700;
+}
+.h_email{
+  @extend .h_tel;
+  text-align: center;
 }
 .main_top{
   width: 100%;
@@ -1718,6 +1727,9 @@ footer{
 .c_about{  
   position: relative;
   overflow: hidden;
+  p{
+    color: #181717;
+  }
   &:after{
     display: block;
     content: '';
@@ -1766,7 +1778,7 @@ footer{
 .cv_text{
   font-size: 13px;
   line-height: 130%;
-  color: #858895;
+  color: #181717;
 }
 .a_advantages{
   h2{

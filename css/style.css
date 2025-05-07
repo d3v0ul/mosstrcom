@@ -195,7 +195,7 @@ body.no_scroll {
 h1 {
   font-size: 40px;
   line-height: 110%;
-  color: #fff;
+  color: #EFEF51;
   font-family: "PT Sans";
   text-transform: uppercase;
   font-weight: 700;
@@ -500,10 +500,20 @@ header.fixed {
   background: url(../images/tel.svg) center/18px no-repeat;
 }
 
-.h_tel {
+.h_contatcs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.h_tel, .h_email {
   flex-shrink: 0;
   font-size: 16px;
   font-weight: 700;
+}
+
+.h_email {
+  text-align: center;
 }
 
 .main_top {
@@ -1866,6 +1876,9 @@ footer.no_mt {
   position: relative;
   overflow: hidden;
 }
+.c_about p {
+  color: #181717;
+}
 .c_about:after {
   display: block;
   content: "";
@@ -1919,7 +1932,7 @@ footer.no_mt {
 .cv_text {
   font-size: 13px;
   line-height: 130%;
-  color: #858895;
+  color: #181717;
 }
 
 .a_advantages h2 {
@@ -2522,7 +2535,7 @@ footer.no_mt {
   }
 } /*1300*/
 @media only screen and (max-width: 1200px) {
-  .h_tel {
+  .h_tel, .h_email {
     display: none;
   }
   .gs_content {
