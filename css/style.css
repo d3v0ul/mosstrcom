@@ -496,8 +496,8 @@ header.fixed {
 .h_socials > a.s_tg {
   background: url(../images/tg.svg) center/19px no-repeat;
 }
-.h_socials > a.s_tel {
-  background: url(../images/tel.svg) center/18px no-repeat;
+.h_socials > a.s_wu {
+  background: url(../images/wu.svg) center/18px no-repeat;
 }
 
 .h_contatcs {
@@ -1420,20 +1420,20 @@ footer.no_mt {
   height: 45px;
   border: 1px solid #4B5167;
   border-radius: 10px;
-  background: url(../images/fs_1.svg) center/9px no-repeat;
+  background: url(../images/fs_t.svg) center/9px no-repeat;
   transition: 0.3s;
+}
+.f_socials > a.fs_vk {
+  background: url(../images/fs_vk.svg) center/16px no-repeat;
+}
+.f_socials > a.fs_tg {
+  background: url(../images/fs_tg.svg) center/16px no-repeat;
+}
+.f_socials > a.fs_wu {
+  background: url(../images/fs_wu.svg) center/16px no-repeat;
 }
 .f_socials > a:hover {
   opacity: 0.7;
-}
-.f_socials > a:nth-child(2) {
-  background: url(../images/fs_2.svg) center/16px no-repeat;
-}
-.f_socials > a:nth-child(3) {
-  background: url(../images/fs_5.svg) center/16px no-repeat;
-}
-.f_socials > a:nth-child(4) {
-  background: url(../images/fs_4.svg) center/15px no-repeat;
 }
 
 .f_middle {
