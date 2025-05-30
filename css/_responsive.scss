@@ -181,7 +181,7 @@ header{
   gap: 25px;
 }
 .mtc_list{
-  margin-top: 0;
+  margin-top: 20px;
   gap: 15px;
   >li{
     font-size: 15px;
@@ -676,6 +676,12 @@ p{
       display: none;
     }
   }
+}
+.mtc_top_wrap{
+  width: calc(100% + 30px);
+  transform: translateX(-15px);
+  border-radius: 0;
+  padding: 20px 15px;
 }
 
 
